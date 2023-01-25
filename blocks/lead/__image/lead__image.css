@@ -1,0 +1,10 @@
+.lead__image {
+  margin: 0 auto 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 40px auto 8px;
+  }
+}
