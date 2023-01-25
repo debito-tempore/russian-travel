@@ -1,5 +1,5 @@
 .cover__background {
-  background-image: url(../../../images/cover-trains.jpg); 
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-}  
+}
 .cover__background::before {
   content: "";
   position: absolute;
@@ -26,7 +26,7 @@
 .cover__background:hover::before {
   background-color: black;
   opacity: 0.8;
-  transition: opacity 1s ease;  
+  transition: opacity 1s ease;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__background {
@@ -39,12 +39,12 @@
   }
 }
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .cover__background { 
+  .cover__background {
     min-height: 320px;
   }
 }
-@media screen and (max-width: 424px) {  
-  .cover__background { 
+@media screen and (max-width: 424px) {
+  .cover__background {
     min-height: 200px;
   }
 }
