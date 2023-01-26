@@ -19,7 +19,5 @@
 @media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 16px;
-    font-size: 10px;
-    line-height: 1.4;
   }
 }
