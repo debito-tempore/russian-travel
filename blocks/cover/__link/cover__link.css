@@ -11,7 +11,6 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  width: 100%;
   position: relative;
 }
 .cover__link::before {
